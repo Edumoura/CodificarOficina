@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Oficina\\": "vendor\\oficinabr\\php-classes\\src"
+            "Oficina\\": "vendor\\oficinabr\\classes-php\\src"
         }
     }
 }

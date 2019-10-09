@@ -16,7 +16,7 @@ class ComposerStaticInitcf74372da260d5510f3cfb7ef26821af
     public static $prefixDirsPsr4 = array (
         'Oficina\\' => 
         array (
-            0 => __DIR__ . '/..' . '/oficinabr/php-classes/src',
+            0 => __DIR__ . '/..' . '/oficinabr/classes-php/src',
         ),
     );
 

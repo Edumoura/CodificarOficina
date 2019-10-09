@@ -8,7 +8,7 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	$sql = new Oficina\DB\Sql();
+	$sql = new Oficina\Db\Sql();
 	$resultado = $sql->select("select * from tb_cliente");
 	echo json_encode($resultado);
 
